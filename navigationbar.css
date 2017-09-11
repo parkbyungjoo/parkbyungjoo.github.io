@@ -1,0 +1,103 @@
+.statusbar {
+    list-style-type: none;
+    margin:auto;
+    overflow: hidden;
+    background-color: #3e3e3e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000000;
+    width:100%;
+    display:block;
+    margin-bottom:10px;
+}
+
+.lia {
+    float:left;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-size:20px;
+}
+
+.lia:hover {
+    background-color: #000000;
+}
+.img {
+    position:relative;
+    top:80px;
+    margin:auto;
+    display:block;
+    width:75%;
+}
+.Appointment {
+    float:left;
+    border-radius: 25px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-size:20px;
+}
+.Appointment:hover {
+    background-color: #d66f64;
+}
+.text {
+    font-size:18px;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    position:relative;
+    top: 70px;
+    display:block;
+    margin-left:15%;
+
+}
+#mail {
+    text-align:center;
+    position:relative;
+    top:50px;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+#signup {
+    position:relative;
+    top:70px;
+}
+
+.infobar {
+    list-style-type: none;
+    margin:auto;
+    overflow: hidden;
+    background-color: #3e3e3e;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000000;
+}
+.infoitem {
+    float: left;
+    border-radius: 25px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-size:20px;
+}
+.infoitem2 {
+    float: right;
+    border-radius: 25px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-size:20px;
+}
